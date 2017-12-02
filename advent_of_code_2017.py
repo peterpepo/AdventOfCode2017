@@ -3,3 +3,7 @@ RESULT_PRINT_FORMAT = "Day {day_number}, part A: {solution[0]}\nDay {day_number}
 # Run day_01
 from day_01 import day_01
 print(RESULT_PRINT_FORMAT.format(day_number = "01", solution = day_01.solve()))
+
+# Run day_02
+from day_02 import day_02
+print(RESULT_PRINT_FORMAT.format(day_number = "02", solution = day_02.solve()))
