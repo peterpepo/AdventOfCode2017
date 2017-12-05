@@ -16,11 +16,11 @@ def solve():
         """Regexp explanation: (?:^|\s)([a-zA-Z]+)\s.*\1(?:$|\s)
         (?:^|\s)    - beginning of a string or whitespace
         ([a-zA-Z]+) - sequence on 1..n alpha characters
-        \s.*        - whitespace followed by sequence of any characters
-        \1          - backreference to 1st capture group (same sequence returned by ([a-zA-Z]+))
+        .*          - sequence of any characters
+        \s\1          - backreference to 1st capture group (same sequence returned by ([a-zA-Z]+)) prefixed by whitespace
         (?:$|\s)    - end of line or whitespace
         """
-        regex_pattern = r"(?:^|\s)([a-zA-Z]+)\s.*\1(?:$|\s)"
+        regex_pattern = r"(?:^|\s)([a-zA-Z]+).*\s\1(?:$|\s)"
         return re.search(regex_pattern, sourceString) is not None
 
     def containsAnagram(sourceString):
