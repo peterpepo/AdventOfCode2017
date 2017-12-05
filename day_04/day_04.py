@@ -3,6 +3,10 @@ import os, re
 
 
 def solve():
+    """Advent Of Code 2017 - Day 04 Solution.
+
+    :return: tuple(part_a_result[int], part_b_result[int])
+    """
     def containsDuplicateWords(sourceString):
         """Checks string containing duplicate words.
 

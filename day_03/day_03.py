@@ -3,6 +3,10 @@ import os
 
 
 def solve():
+    """Advent Of Code 2017 - Day 03 Solution.
+
+    :return: tuple(part_a_result[int], part_b_result[int])
+    """
     puzzle_input = read_puzzle_input(os.path.dirname(os.path.abspath(__file__)), "day_03_input.txt")[0]
     puzzle_input = int(puzzle_input)
 
