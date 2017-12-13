@@ -17,7 +17,7 @@ def get_scanner_position(scanner_range, seconds_passed):
 
 
 def solve():
-    """Advent Of Code 2017 - Day 10 Solution.
+    """Advent Of Code 2017 - Day 13 Solution.
     :return: tuple(part_a_result[int], part_b_result[int])
     """
     scanners = {}

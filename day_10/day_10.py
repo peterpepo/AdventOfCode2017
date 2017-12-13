@@ -55,6 +55,9 @@ def dense_hash(input_array, base):
 
 
 def solve():
+    """Advent Of Code 2017 - Day 10 Solution.
+    :return: tuple(part_a_result[int], part_b_result[int])
+    """
     puzzle_input = read_puzzle_input(os.path.dirname(os.path.abspath(__file__)), "day_10_input.txt")[0].strip()
     puzzle_knots = [i for i in range(256)]
 
