@@ -31,3 +31,7 @@ print(RESULT_PRINT_FORMAT.format(day_number = "08", solution = day_08.solve()))
 # Run day_10
 from day_10 import day_10
 print(RESULT_PRINT_FORMAT.format(day_number = "10", solution = day_10.solve()))
+
+# Run day_13
+from day_13 import day_13
+print(RESULT_PRINT_FORMAT.format(day_number = "13", solution = day_13.solve()))
