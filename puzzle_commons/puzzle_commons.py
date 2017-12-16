@@ -25,3 +25,11 @@ def memoize(f):
             return cache[args]
 
     return decorated_function
+
+def char_range(start_character, end_character):
+    """
+    Generates a sequence of ascii characters, starting with [start_character] , ending with [end character].
+    Based on ascii code of the character.
+    """
+    for i in range(ord(start_character), ord(end_character)+1):
+        yield chr(i)
