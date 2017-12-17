@@ -38,7 +38,7 @@ def solve():
 
         return binary_string
 
-    # Store disk representation in memory - disk_rows
+    # Store disk representation in memory
     disk = []
 
     for row in range(0, 128):
@@ -59,7 +59,7 @@ def solve():
         return space_used
 
     def solve_b():
-        """Advent Of Code 2017 - Day 14 - Part A Solution.
+        """Advent Of Code 2017 - Day 14 - Part B Solution.
         """
         regions = 0  # Answer for part-B
 
