@@ -2,13 +2,13 @@ from puzzle_commons.puzzle_commons import read_puzzle_input
 import os
 
 def solve():
-    """Advent Of Code 2017 - Day 16 Solution.
+    """Advent Of Code 2017 - Day 17 Solution.
     :return: tuple(part_a_result[int], part_b_result[int])
     """
     puzzle_input = int(read_puzzle_input(os.path.dirname(os.path.abspath(__file__)), "day_17_input.txt")[0])
 
     def solve_a():
-        """Advent Of Code 2017 - Day 16 - Part A Solution.
+        """Advent Of Code 2017 - Day 17 - Part A Solution.
         """
         buffer = [0]
         current_position = 0
@@ -30,7 +30,7 @@ def solve():
         return part_a_result
 
     def solve_b():
-        """Advent Of Code 2017 - Day 16 - Part B Solution.
+        """Advent Of Code 2017 - Day 17 - Part B Solution.
         """
         current_position = 0
         buffer_length = 1
