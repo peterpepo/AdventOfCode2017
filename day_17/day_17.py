@@ -1,4 +1,4 @@
-from puzzle_commons.puzzle_commons import read_puzzle_input, char_range
+from puzzle_commons.puzzle_commons import read_puzzle_input
 import os
 
 def solve():
